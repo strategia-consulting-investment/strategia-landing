@@ -1,1 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StrategIA Consulting & Investment</title>
 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f6f9;
+    color: #1c1c1c;
+}
+
+header {
+    background: #0E2A47;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #0E2A47;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+button {
+    background: #C8A951;
+    color: white;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #b38f3f;
+}
+
+footer {
+    background: #0E2A47;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+}
+
+.badge {
+    margin-top: 20px;
+    font-weight: 600;
+    color: #C8A951;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>StrategIA Consulting & Investment</h1>
+    <p>Viabilidad antes de inversión.</p>
+</header>
+
+<section>
+    <h2>Solicitar Evaluación Estratégica</h2>
+    <p>Complete el siguiente formulario para realizar un análisis preliminar de su proyecto o empresa.</p>
+
+    <div class="form-container">
+
+        <form action="https://formsubmit.co/TU_CORREO_AQUI" method="POST">
+
+            <input type="text" name="Nombre_Proyecto" placeholder="Nombre del Proyecto" required>
+            
+            <input type="text" name="Cliente" placeholder="Nombre del Cliente" required>
+
+            <select name="Destino" required>
+                <option value="">Destino del Proyecto</option>
+                <option>Banco</option>
+                <option>Inversionista</option>
+                <option>Fondo Emprender</option>
+                <option>Diagnóstico Empresarial</option>
+            </select>
+
+            <textarea name="Descripcion" placeholder="Describa su proyecto o situación actual" rows="5" required></textarea>
+
+            <input type="text" name="WhatsApp" placeholder="Número WhatsApp (opcional)">
+
+            <input type="text" name="Telegram" placeholder="Usuario Telegram (opcional)">
+
+            <input type="email" name="Email" placeholder="Correo electrónico" required>
+
+            <button type="submit">Enviar Solicitud</button>
+
+        </form>
+
+        <div class="badge">
+            Su información será analizada confidencialmente.
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+StrategIA Consulting & Investment © 2026  
+Estructura. Evalúa. Crece.
+</footer>
+
+</body>
+</html>
